@@ -13,7 +13,7 @@ const apiStatusConstants = {
 const ProfileDetails = props => {
   const renderProfile = () => {
     const {profileDetails} = props
-    const {name, profileImageUrl, shortBio} = profileDetails
+    const {profileImageUrl, shortBio} = profileDetails
 
     return (
       <div className="profile-details-container">
